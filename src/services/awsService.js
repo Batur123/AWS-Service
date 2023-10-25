@@ -1,6 +1,7 @@
 const { S3Client, ListBucketsCommand } = require('@aws-sdk/client-s3')
 const Logger = require('../logger/loggerService')
 
+// Can be extended, just sample service.
 class AwsService extends Logger {
     constructor() {
         super('AwsService')
